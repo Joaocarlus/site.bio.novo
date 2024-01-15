@@ -1,0 +1,61 @@
+@media only screen and (max-width: 600px){
+    /*Estilo para celulares*/
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+}
+
+@media only screen and (min-width: 1025px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .menu_logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 25vh;
+        background: linear-gradient(to right, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+
+    .Logo{
+        border: 3px solid white;
+        border-radius: 50px;
+    }
+
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #2576C0;
+        
+    }
+    .menu_links{
+        background-color: #72B2E4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80vw;
+        height: 75vh;
+        border-radius: 35px;
+    }
+
+    .menu_links ul{
+        list-style: none;
+    }
+
+    .menu_links ul li a{
+        text-decoration: none;
+    }
+
+    .menu_links ul li a{
+        color: black;
+        font-size: 2em;
+    }
+}
